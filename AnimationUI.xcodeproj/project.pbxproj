@@ -11,6 +11,10 @@
 		EBD71B3929E5C14F0077739D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B3829E5C14F0077739D /* ContentView.swift */; };
 		EBD71B3B29E5C1530077739D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD71B3A29E5C1530077739D /* Assets.xcassets */; };
 		EBD71B3E29E5C1530077739D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD71B3D29E5C1530077739D /* Preview Assets.xcassets */; };
+		EBD71B4829E5C1E60077739D /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B4729E5C1E60077739D /* Section.swift */; };
+		EBD71B4A29E5C1F50077739D /* CustomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B4929E5C1F50077739D /* CustomSection.swift */; };
+		EBD71B4C29E5C1FF0077739D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B4B29E5C1FF0077739D /* HomeView.swift */; };
+		EBD71B4E29E5C20C0077739D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD71B4D29E5C20C0077739D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		EBD71B3829E5C14F0077739D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBD71B3A29E5C1530077739D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBD71B3D29E5C1530077739D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBD71B4729E5C1E60077739D /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		EBD71B4929E5C1F50077739D /* CustomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSection.swift; sourceTree = "<group>"; };
+		EBD71B4B29E5C1FF0077739D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EBD71B4D29E5C20C0077739D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		EBD71B3529E5C14F0077739D /* AnimationUI */ = {
 			isa = PBXGroup;
 			children = (
+				EBD71B4629E5C1D20077739D /* Model */,
+				EBD71B4529E5C1BE0077739D /* View */,
+				EBD71B4429E5C1B70077739D /* Helper */,
 				EBD71B3629E5C14F0077739D /* AnimationUIApp.swift */,
 				EBD71B3829E5C14F0077739D /* ContentView.swift */,
 				EBD71B3A29E5C1530077739D /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				EBD71B3D29E5C1530077739D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBD71B4429E5C1B70077739D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B4D29E5C20C0077739D /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EBD71B4529E5C1BE0077739D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B4B29E5C1FF0077739D /* HomeView.swift */,
+				EBD71B4929E5C1F50077739D /* CustomSection.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBD71B4629E5C1D20077739D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBD71B4729E5C1E60077739D /* Section.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD71B4829E5C1E60077739D /* Section.swift in Sources */,
+				EBD71B4E29E5C20C0077739D /* Extensions.swift in Sources */,
 				EBD71B3929E5C14F0077739D /* ContentView.swift in Sources */,
+				EBD71B4A29E5C1F50077739D /* CustomSection.swift in Sources */,
+				EBD71B4C29E5C1FF0077739D /* HomeView.swift in Sources */,
 				EBD71B3729E5C14F0077739D /* AnimationUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
