@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Home: View {
     
-    @State private var activeSection: Section = .explore
+    @State private var activeSection: Section = .search
     
     var body: some View {
         
